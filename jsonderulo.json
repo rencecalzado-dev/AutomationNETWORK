@@ -1,0 +1,18 @@
+{
+  "switch": {
+    "device_type": "cisco_ios_telnet",
+    "host": "10.51.1.4",
+    "port": 23,
+    "username": "admin"
+  },
+  "dhcp": {
+    "pool_name": "PYTHON-VLAN110",
+    "network": "10.51.110.0",
+    "subnet_mask": "255.255.255.0",
+    "default_gateway": "10.51.110.4",
+    "dns_server": "10.51.1.10",
+    "excluded_start": "10.51.110.1",
+    "excluded_end": "10.51.110.100",
+    "lease_days": 1
+  }
+}
